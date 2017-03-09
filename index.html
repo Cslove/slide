@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播图切换</title>
+	<style type="text/css">
+	*{margin: 0;padding: 0;}
+	body{font-family: '微软雅黑';}
+	
+    .mask{position:fixed;top: 0;right: 0; bottom:0;left: 0; background-color:rgba(0,0,0,.5); display: none; z-index: 1;}
+    .pic-view{position:relative;position: absolute; width: 500px;height: 350px;border: 5px solid #fff;border-radius: 5px;left:50%;top:-2000px; margin-left:-270px;z-index: 2; background: #fff;}
+    .pic-view img{position: absolute;}
+    .pic-view .pic-caption{height:50px;width: 100%;position: absolute;bottom: 0;text-align: center; background: rgba(0,0,0,.5);color: #fff;}
+	</style>
+</head>
+<body>
+     <h1>第一组图片</h1>
+     <div class="pic-group">
+	    	<img class="lightbox" data-source="imgs/1.jpg" data-role="lightbox" data-caption="afgdsd" data-id=1 data-group=1 src="imgs/1.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/2.jpg" data-role="lightbox" data-caption="xzgd" data-id=2 data-group=1 src="imgs/2.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/3.jpg" data-role="lightbox" data-caption="gfdgf" data-id=3 data-group=1 src="imgs/3.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/4.jpg" data-role="lightbox" data-caption="vcxs" data-id=4 data-group=1 src="imgs/4.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/1.jpg" data-role="lightbox" data-caption="afgdsd" data-id=5 data-group=1 src="imgs/1.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/2.jpg" data-role="lightbox" data-caption="xzgd" data-id=6 data-group=1 src="imgs/2.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/3.jpg" data-role="lightbox" data-caption="gfdgf" data-id=7 data-group=1 src="imgs/3.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/4.jpg" data-role="lightbox" data-caption="vcxs" data-id=8 data-group=1 src="imgs/4.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/1.jpg" data-role="lightbox" data-caption="afgdsd" data-id=9 data-group=1 src="imgs/1.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/2.jpg" data-role="lightbox" data-caption="xzgd" data-id=10 data-group=1 src="imgs/2.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/3.jpg" data-role="lightbox" data-caption="gfdgf" data-id=11 data-group=1 src="imgs/3.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/4.jpg" data-role="lightbox" data-caption="vcxs" data-id=12 data-group=1 src="imgs/4.jpg" width="150px" height="150px">
+	    	
+	 </div>
+	 <h1>第二组图片</h1>
+	  <div class="pic-group">
+	    	<img class="lightbox" data-source="imgs/5.jpg" data-role="lightbox" data-caption="4654454" data-id=1 data-group=2 src="imgs/5.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/6.jpg" data-role="lightbox" data-caption="214542" data-id=2 data-group=2 src="imgs/6.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/2.jpg" data-role="lightbox" data-caption="5421274" data-id=3 data-group=2 src="imgs/2.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/7.jpg" data-role="lightbox" data-caption="2457857" data-id=4 data-group=2 src="imgs/7.jpg" width="150px" height="150px">    	
+	 </div>
+	 <h1>第三组图片</h1>
+	  <div class="pic-group">
+	    	<img class="lightbox" data-source="imgs/1.jpg" data-role="lightbox" data-caption="dsdsgdf" data-id=1 data-group=3 src="imgs/1.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/3.jpg" data-role="lightbox" data-caption="caonima" data-id=2 data-group=3 src="imgs/3.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/4.jpg" data-role="lightbox" data-caption="滚你妈单" data-id=3 data-group=3 src="imgs/4.jpg" width="150px" height="150px">
+	    	<img class="lightbox" data-source="imgs/7.jpg" data-role="lightbox" data-caption="踩死" data-id=4 data-group=3 src="imgs/7.jpg" width="150px" height="150px">    	
+	 </div>
+   
+    
+         
+	<script type="text/javascript" src='js/jquery.js'></script>
+	<script type="text/javascript" src="js/lunbo.js"></script>
+</body>
+</html>
